@@ -1,0 +1,39 @@
+<html>
+	<body>
+		<script language="Javascript" type="text/Javascript">
+			var m=[['Nisha',90],['kane',80],['shraddha',57],['rutika',88],['boult',56]];
+			var sum=0;
+			for(var i=0;i<m.length;i++)
+			{
+				sum+=m[i][1];
+				var avg=(sum/m.length);
+			}
+			
+			document.write("Avg : "+avg+"<br>");
+	
+			if(avg<60)
+			{
+				document.write("Grade E");
+			}
+			else if(avg<70)
+			{
+				document.write("Grade D");
+			}
+			else if(avg<80)
+			{
+				document.write("Grade C");
+			}
+			else if(avg<90)
+			{
+				document.write("Grade B");
+			}
+			else 
+			{
+				document.write("Grade A");
+			}
+			
+
+		</script>
+	</body>
+
+</html>
